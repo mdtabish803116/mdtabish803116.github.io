@@ -1,0 +1,74 @@
+
+/* <button class="button-74" role="button">Button 74</button> */
+
+/* CSS */
+.button-74 {
+  background-color: rgb(255, 255, 0);
+  border: 2px solid #422800;
+  border-radius: 30px;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  box-shadow: rgba(34, 29, 45, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #1f1f2d 0 -3px 0 inset;
+  transform: translateY(-5px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #d99536;
+  border-radius: 300px;
+  border-width: 0;
+  box-sizing: border-box;
+  color: #060715;
+  cursor: pointer;
+  display: inline-flex;
+  font-family:'Courier New', Courier, monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 14px;
+  border: 1px solid black;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(31, 28, 38, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #0e0e21 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(34, 29, 45, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #1f1f2d 0 -3px 0 inset;
+  transform: translateY(-5px);
+}
+
